@@ -26,19 +26,23 @@ body {
     margin: auto;
 }
 
-h1 {
-    font-weight: 700;
-}
-
-
-
 /* header */
 
+header {
+    margin: auto;
+}
 
+h1 {
+    font-weight: 700;
+    color: #D7155E;
+    text-align: center;
+    margin-top: 1rem;
+}
 
-
-
-
+ header > p {
+    text-align: center;
+    margin-top: 2rem;
+ }
 
 
 /* cards */
