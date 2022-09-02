@@ -1,12 +1,8 @@
-/* Common rules */
+/* #region Common rules */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-img {
-    max-width: 100%;
 }
 
 .clearfix::after {
@@ -18,6 +14,11 @@ img {
 body {
     font-family: 'Dosis', sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+/* #endregion Common rules */
 
 
 /* container */
@@ -51,11 +52,15 @@ h1 {
 }
 
 .col-4 {
+    width: calc(100% / 3);
+    padding: 1rem;
     float: left;
+}
+
+.card {
     background-color: black;
-    width: calc(90% / 3);
-    margin: 1rem;
-    box-shadow: 0 0 6px black;
+    color: white;
+    box-shadow: 4px 6px 8px darkgrey;
 }
 
 img {
@@ -63,14 +68,13 @@ img {
     background-color: black;
     width: 35%;
     padding-right: 1.5rem;
-    vertical-align: middle;
 }
 
 .info {
     color: white;
     margin: 1rem;
-    vertical-align: middle;
     font-size: 1.2rem;
+    float: left;
 }
 
 h3 {
